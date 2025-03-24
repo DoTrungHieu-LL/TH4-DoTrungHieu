@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/color1"
+    >
+
+    <EditText
+        android:textColor="@color/black"
+        android:background="@color/color2"
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="Tên người dùng" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:background="@color/color2"
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword" />
+
+    <Button
+        android:textSize="24dp"
+        android:backgroundTint="@color/color3"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu" />
+
+    <Button
+        android:textSize="24dp"
+        android:backgroundTint="@color/color3"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị" />
+
+    <Button
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/color3"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/DisplayShow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textColor="@color/color4"
+        />
+
+</LinearLayout>
